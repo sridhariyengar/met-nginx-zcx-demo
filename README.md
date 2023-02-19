@@ -6,6 +6,7 @@ This is a sample repo that contains the source code for the nginx application th
 ## How to deploy on OpenShift
 1. Create your project namespace in the cluster. </br>
     <img width="327" alt="1" src="https://user-images.githubusercontent.com/4284629/219980024-fca114ab-1cd1-4704-874a-18d125b78c57.png">
+    <img width="588" alt="Screenshot 2023-02-19 at 18 24 14" src="https://user-images.githubusercontent.com/4284629/219981703-3191ad3f-d60b-433b-b43e-a2917fc015df.png">
 1. Click the `+Add` tab in the left menu. </br>
     <img width="278" alt="2" src="https://user-images.githubusercontent.com/4284629/219980065-157c5023-832f-4823-a805-c9b1692b4823.png">
 1. Click the `Git Repository` tab in the main page. </br>
