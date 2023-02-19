@@ -18,5 +18,11 @@ This is a sample repo that contains the source code for the nginx application th
     <img width="1038" alt="6" src="https://user-images.githubusercontent.com/4284629/219980569-656e13dd-d799-4686-962f-4c4ac4131a77.png">
 
 ## How to make change
-1.
-1.
+1. Modify the the source code in git repo, here we changed the header text in the index page for nginx. </br>
+      ![7](https://user-images.githubusercontent.com/4284629/219980838-13370fff-e0b4-444e-9d4b-ceec15305d1a.png)  
+1. Click the `Start Build` button in the deployment typology page to rebuild the nginx contianer image, onces the new image is built, OpenShift will automatically deploy the new container. </br>
+        <img width="470" alt="Screenshot 2023-02-19 at 18 10 56" src="https://user-images.githubusercontent.com/4284629/219980943-e28e60c4-b709-4221-96e1-4112a028e000.png">
+        <img width="480" alt="Screenshot 2023-02-19 at 18 11 21" src="https://user-images.githubusercontent.com/4284629/219980963-47bbc38d-0cc6-4bbd-805b-e222926d3ad5.png">
+1. Open the same url location under the `Routes` section for nginx application or refresh the nginx index page, you should see the header change. </br>
+        <img width="1089" alt="Screenshot 2023-02-19 at 18 13 54" src="https://user-images.githubusercontent.com/4284629/219981111-d85995ab-4ba2-4b9a-a414-72ae57fd7d49.png">
+
