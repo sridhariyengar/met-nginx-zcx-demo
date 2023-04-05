@@ -15,8 +15,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh 'whoami'
-                sh 'pwd'
                 sh 'podman'
             }
         }
